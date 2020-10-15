@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Facebook_login_Test">
+  <test name="Facebook login functionality test">
+    
+    <classes>
+      <class name="com.test_runner_facebook.Tesr_Runner_invalid_login"/>
+      <class name="com.test_runner_facebook.Test_Runner"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+ 

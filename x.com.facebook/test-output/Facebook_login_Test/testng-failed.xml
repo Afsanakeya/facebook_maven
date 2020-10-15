@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Facebook_login_Test]">
+  <test thread-count="5" name="Facebook login functionality test(failed)">
+    <classes>
+      <class name="com.test_runner_facebook.Tesr_Runner_invalid_login$Test_Runner_Local">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.test_runner_facebook.Tesr_Runner_invalid_login$Test_Runner_Local -->
+      <class name="com.test_runner_facebook.Test_Runner$Test_Runner_Local">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.test_runner_facebook.Test_Runner$Test_Runner_Local -->
+    </classes>
+  </test> <!-- Facebook login functionality test(failed) -->
+</suite> <!-- Failed suite [Facebook_login_Test] -->
