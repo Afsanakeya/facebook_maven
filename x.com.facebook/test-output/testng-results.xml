@@ -2,16 +2,16 @@
 <testng-results skipped="2" failed="0" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Facebook_login_Test" duration-ms="45" started-at="2020-10-15T18:06:32Z" finished-at="2020-10-15T18:06:32Z">
+  <suite name="Facebook_login_Test" duration-ms="56" started-at="2020-10-15T18:56:16Z" finished-at="2020-10-15T18:56:16Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.test_runner_facebook.Tesr_Runner_invalid_login$Test_Runner_Local@6a4f787b]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.test_runner_facebook.Test_Runner$Test_Runner_Local@685cb137]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Facebook login functionality test" duration-ms="45" started-at="2020-10-15T18:06:32Z" finished-at="2020-10-15T18:06:32Z">
+    <test name="Facebook login functionality test" duration-ms="56" started-at="2020-10-15T18:56:16Z" finished-at="2020-10-15T18:56:16Z">
       <class name="com.test_runner_facebook.Test_Runner$Test_Runner_Local">
-        <test-method status="FAIL" signature="setUpClass()[pri:0, instance:com.test_runner_facebook.Test_Runner$Test_Runner_Local@685cb137]" name="setUpClass" is-config="true" duration-ms="1" started-at="2020-10-15T18:06:32Z" finished-at="2020-10-15T18:06:32Z">
+        <test-method status="FAIL" signature="setUpClass()[pri:0, instance:com.test_runner_facebook.Test_Runner$Test_Runner_Local@685cb137]" name="setUpClass" is-config="true" duration-ms="0" started-at="2020-10-15T18:56:16Z" finished-at="2020-10-15T18:56:16Z">
           <exception class="cucumber.runtime.CucumberException">
             <message>
               <![CDATA[Couldn't load plugin class: com.cucumber.listener.ExtentCucumberFormatter]]>
@@ -66,7 +66,7 @@ at cucumber.runtime.formatter.PluginFactory.loadClass(PluginFactory.java:173)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="SKIP" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.test_runner_facebook.Test_Runner$Test_Runner_Local@685cb137]" name="feature" duration-ms="0" started-at="2020-10-15T18:06:32Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-10-15T18:06:32Z">
+        <test-method status="SKIP" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.test_runner_facebook.Test_Runner$Test_Runner_Local@685cb137]" name="feature" duration-ms="0" started-at="2020-10-15T18:56:16Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-10-15T18:56:16Z">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[java.lang.NullPointerException]]>
@@ -112,7 +112,7 @@ at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(Met
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="FAIL" signature="tearDownClass()[pri:0, instance:com.test_runner_facebook.Test_Runner$Test_Runner_Local@685cb137]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2020-10-15T18:06:32Z" finished-at="2020-10-15T18:06:32Z">
+        <test-method status="FAIL" signature="tearDownClass()[pri:0, instance:com.test_runner_facebook.Test_Runner$Test_Runner_Local@685cb137]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2020-10-15T18:56:16Z" finished-at="2020-10-15T18:56:16Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -151,7 +151,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.test_runner_facebook.Test_Runner$Test_Runner_Local -->
       <class name="com.test_runner_facebook.Tesr_Runner_invalid_login$Test_Runner_Local">
-        <test-method status="FAIL" signature="setUpClass()[pri:0, instance:com.test_runner_facebook.Tesr_Runner_invalid_login$Test_Runner_Local@6a4f787b]" name="setUpClass" is-config="true" duration-ms="15" started-at="2020-10-15T18:06:32Z" finished-at="2020-10-15T18:06:32Z">
+        <test-method status="FAIL" signature="setUpClass()[pri:0, instance:com.test_runner_facebook.Tesr_Runner_invalid_login$Test_Runner_Local@6a4f787b]" name="setUpClass" is-config="true" duration-ms="28" started-at="2020-10-15T18:56:16Z" finished-at="2020-10-15T18:56:16Z">
           <exception class="cucumber.runtime.CucumberException">
             <message>
               <![CDATA[Couldn't load plugin class: com.cucumber.listener.ExtentCucumberFormatter]]>
@@ -206,7 +206,7 @@ at cucumber.runtime.formatter.PluginFactory.loadClass(PluginFactory.java:173)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="SKIP" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.test_runner_facebook.Tesr_Runner_invalid_login$Test_Runner_Local@6a4f787b]" name="feature" duration-ms="0" started-at="2020-10-15T18:06:32Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-10-15T18:06:32Z">
+        <test-method status="SKIP" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.test_runner_facebook.Tesr_Runner_invalid_login$Test_Runner_Local@6a4f787b]" name="feature" duration-ms="0" started-at="2020-10-15T18:56:16Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-10-15T18:56:16Z">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[java.lang.NullPointerException]]>
@@ -252,7 +252,7 @@ at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(Met
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="FAIL" signature="tearDownClass()[pri:0, instance:com.test_runner_facebook.Tesr_Runner_invalid_login$Test_Runner_Local@6a4f787b]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2020-10-15T18:06:32Z" finished-at="2020-10-15T18:06:32Z">
+        <test-method status="FAIL" signature="tearDownClass()[pri:0, instance:com.test_runner_facebook.Tesr_Runner_invalid_login$Test_Runner_Local@6a4f787b]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2020-10-15T18:56:16Z" finished-at="2020-10-15T18:56:16Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException

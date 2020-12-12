@@ -11,7 +11,10 @@ public class Base {
 		public static WebDriver getBrowser(WebDriver driver ,String browser) {
 			if (browser.equalsIgnoreCase("chrome")) {
 				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver");
+				//System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver");
+				// /Users/afsanakeya/git/facebook_maven/x.com.facebook/drivers/chromedriver
 				driver = new ChromeDriver();
+				
 				System.out.println(" chrome driver open ++++++++++++++++ ");
 
 				driver.manage().deleteAllCookies();
